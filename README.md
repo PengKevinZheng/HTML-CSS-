@@ -4,10 +4,10 @@
 
 ###1. 单个div元素居中显示：
       css文件中：
-      #id { 
-            margin:0px auto; 
-            background: #6cf;
-		        width:900px;
-		        height: 500px;
-		      }
+      	#id 	{ 
+            		margin:0px auto; 
+            		background: #6cf;
+			width:900px;
+			height: 500px;
+		}
       
