@@ -32,6 +32,22 @@
 		
 		在父元素container中定义margin：0px auto和宽度。在两个子元素header和content中定义高度就行了。
 		
+	3. 两列固定宽度左窄右宽型
+		HTML文件：
+		<html>
+			<head>
+				<link href="practice_layout.css" rel="stylesheet" type="text/css" />
+			</head>
+	
+		<body>
+			<div id="container">
+				<div id="left">This is left</div>
+				<div id="right">This is right</div>
+			</div>
+		</body>
+		</html>
+		
+		
       
 
 
