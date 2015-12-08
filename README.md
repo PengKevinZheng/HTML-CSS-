@@ -73,6 +73,17 @@
 		：两个子元素的宽度之和（加上margin）等于父元素的宽度时，页面也能成功显示。子元素宽度之和大于父元素，子元素会另起一行。  
 		子元素宽度之和小于父元素，两个子元素之间会有空隙。
 		
+	4.两列固定宽度左窄右宽型+头部
+	
+		HTML文件中：
+			<body>
+				<div id="header">This is header</div>
+					<div id="container">
+					<div id="left">This is left</div>
+					<div id="right">This is right</div>
+				</div>
+			</body>
+		header是一个独立的div，左右两个div在一个父元素中。
 		
       
 
