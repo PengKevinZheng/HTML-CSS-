@@ -77,13 +77,15 @@
 	
 		HTML文件中：
 			<body>
+			        <div id="container">
 				<div id="header">This is header</div>
-					<div id="container">
+					<div id="maincontent">
 					<div id="left">This is left</div>
 					<div id="right">This is right</div>
+					</div>
 				</div>
 			</body>
-		header是一个独立的div，左右两个div在一个父元素中。
+		左右两个div在一个父元素maincontent中,maincontent和header又在一个总的divcontainer中。
 		
       
 
