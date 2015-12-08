@@ -47,6 +47,32 @@
 		</body>
 		</html>
 		
+		CSS文件：
+		body { font-family:Verdana; font-size:14px;margin:0px; }
+
+		#container {
+		margin: 0px auto;
+		width:900px;
+		}
+
+		#left {
+		width:200px;
+		height:600px;
+		background-color:blue;
+		float:left;
+		}
+
+		#right {
+		width:700px; 
+		height:600px;
+		background-color:red;
+		float:right;
+		}
+		
+		在父元素container中规定了宽度，两个子元素分别规定了各自的宽度和高度，一个子元素float:left，一个子元素float：right.注意  
+		：两个子元素的宽度之和（加上margin）等于父元素的宽度时，页面也能成功显示。子元素宽度之和大于父元素，子元素会另起一行。  
+		子元素宽度之和小于父元素，两个子元素之间会有空隙。
+		
 		
       
 
