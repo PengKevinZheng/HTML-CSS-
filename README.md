@@ -1,6 +1,7 @@
 # HTML-CSS-
 ##HTML基础  
 	1.<!DOCTYPE>: HTML也有很多版本，只有完全明白页面中所有使用的HTML版本，才能完全正确地显示出HTML页面。
+	2. <a href='http://www.jikexueyuan.com'>study</a> 添加一个超级链接。
 ##HTML5新特性  
 	1.用于绘画的canvas标签  
 	2.用语媒体回放的video和auto标签。
