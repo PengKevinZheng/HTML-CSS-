@@ -1,5 +1,9 @@
 # HTML-CSS-
-
+##HTML5新特性  
+	1.用于绘画的canvas标签  
+	2.用语媒体回放的video和auto标签。
+	3.对本地离线存储更好的支持。  
+	4.新的特殊内容元素：artical，footer, header, nav, section.新的表单空间：calendar，date，time，email，url，search
 ##HTML/CSS 基本布局，基础中的基础
 
 	1. 单个div元素居中显示：
