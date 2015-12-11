@@ -27,7 +27,8 @@
 		4.HTML<span>元素：<span>元素是内联元素，可作为文本容器。<div><p><span>hehehe</span>hahahaha<p></div> 					可单独定义<span>中的内容  
 	6. HTML布局  
 		1.div布局  
-		2.table布局
+		2.table布局：<table> <tr> <td>等。  
+		3.关于div和table布局的区别：参考：http://blog.csdn.net/wangboxian/article/details/7599665
 ##HTML5新特性  
 	1.用于绘画的canvas标签  
 	2.用语媒体回放的video和auto标签。
