@@ -8,7 +8,7 @@
         </a> 以一张图片作为连接。  
 
 	   <a name="tips">hello<a/>
-	   <a href="#tips">跳转到hello</a>
+	   <a href="#tips">跳转到hello</a>在本页面内部跳转
 	3. <br/>：换行
 	4. 三种样式表插入方法：  
 		1.外部样式表：<link rel="stylesheet" type="text/css" href="mystyle.css">  
