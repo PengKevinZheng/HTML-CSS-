@@ -50,7 +50,8 @@
 			<textarea clos ="30" rows="30">请再次填写个人信息</textarea>  
 			<input type="button" value="确认">		
 			<input type="submit" value="提交">
-		</form>
+		</form>  
+	8. 实体：  在<body>中如果要写<html>这时候浏览器是不识别的，要写&lt;html&gt; 才会在页面上出现<html>,&lt就是<的实体，&gt就是>的实体。
 ##HTML5新特性  
 	1.用于绘画的canvas标签  
 	2.用语媒体回放的video和auto标签。
