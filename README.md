@@ -28,7 +28,18 @@
 	6. HTML布局  
 		1.div布局  
 		2.table布局：<table> <tr> <td>等。  
-		3.关于div和table布局的区别：参考：http://blog.csdn.net/wangboxian/article/details/7599665
+		3.关于div和table布局的区别：参考：http://blog.csdn.net/wangboxian/article/details/7599665  
+	7. 表单		
+		<form>  
+			用户名：
+			<input type="text">  
+			密码：  
+			<input type="password">  
+			你喜欢的水果有？  
+			苹果<input type="checkbox">
+			梨子<input type="checkbox">
+			香蕉<input type="checkbox"> 
+		</form>
 ##HTML5新特性  
 	1.用于绘画的canvas标签  
 	2.用语媒体回放的video和auto标签。
