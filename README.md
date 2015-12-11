@@ -38,7 +38,18 @@
 			你喜欢的水果有？  
 			苹果<input type="checkbox">
 			梨子<input type="checkbox">
-			香蕉<input type="checkbox"> 
+			香蕉<input type="checkbox">   <!-- 复选框 -->
+			性别：
+			男<input type="radio" name="sex"> 
+			女<input type="radio" name="sex">   <!-- name相同，代表同一组，同一组中只能选择其中一个，所以为单选框 -->  
+			请选择您常用的网站：
+			<select>  
+				<option>极客</option>  
+				<option>google</option>  
+			</select>  
+			<textarea clos ="30" rows="30">请再次填写个人信息</textarea>  
+			<input type="button" value="确认">		
+			<input type="submit" value="提交">
 		</form>
 ##HTML5新特性  
 	1.用于绘画的canvas标签  
