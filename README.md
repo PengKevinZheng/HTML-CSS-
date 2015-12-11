@@ -19,7 +19,12 @@
 			p {margin-left:20px}   
 			</style>
 		3.内联样式表：  
-			<p style="color:red">
+			<p style="color:red">  
+	5. HTML块  
+		1.HTML块元素：块元素在显示时，通常会以新行开始。  如：<h1>,<p>,<ul>  
+		2.HTML内联元素：内联元素通常不会以新行开始。如<b>,<a>,<img>  
+		3.HTML<div>元素：<div>元素是内联元素，其主要是组合HTML元素的容器。
+		4.HTML<span>元素：<span>元素是内联元素，可作为文本容器。
 ##HTML5新特性  
 	1.用于绘画的canvas标签  
 	2.用语媒体回放的video和auto标签。
