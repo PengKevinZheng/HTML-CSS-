@@ -145,6 +145,81 @@
 		左右两个div在一个父元素maincontent中,maincontent和header又在一个总的divcontainer中。  
 	
 		
+##CSS基础  
+	1.派生选择器  
+		HTML中：
+		<ul>  
+			<li><strong>Hello CSS</strong></li>  
+		</ul>  
+		CSS中：  
+		li strong {
+		color:yellow;
+		}  
+	2. id选择器  
+	3. 类选择器  
+	4. 属性选择器  
+		HTML中：
+		<body>  
+			<p title="t">属性选择器</p>  
+			<p title="te">属性和值选择器</p>
+		</body>  
+		CSS中：  
+		[title] {
+			color:red;  
+			}   
+		那么所有有title属性的标签都会改变。
+		[title="t1"] {
+			color:yellow;  
+			}  
+		那么title属性为t1的所有标签都会改变。  
+	5. 背景：  
+		background-position:  
+			1.x% y%:第一个值是水平位置，第二个值是垂直位置。左上角是 0% 0%。右下角是 100% 100%。  
+
+			如果您仅规定了一个值，另一个值将是 50%。  
+			2.值：top left
+			top center
+			top right
+			center left
+			center center
+			center right
+			bottom left
+			bottom center
+			bottom right  
+			如果您仅规定了一个关键词，那么第二个值将是"center"。  
+			3.xpos ypos  
+			第一个值是水平位置，第二个值是垂直位置。
+			左上角是 0 0。单位是像素 (0px 0px) 或任何其他的 CSS 单位。
+			如果您仅规定了一个值，另一个值将是50%。
+			您可以混合使用 % 和 position 值。  
+		background-attachment: scroll | fixed | inherit 
+			scroll: 随着页面的滚动轴背景图片将移动（相对于用户）
+			fixed: 随着页面的滚动轴背景图片不会移动 （相对于用户）
+			inherit: 继承    
+	6.文本：  
+	7.CSS链接的四种状态：
+		a:link 普通的，未被访问的链接  a:link {color:  }
+		a:visited 用户已经访问的链接   a:visited {color:  }
+		a:hover 鼠标指针位于连接上方   a:hover {color:  }
+		a:active 链接被点击的时刻      a:active {color:  }   
+		
+	8. 对table的属性进行设置，比如边框，高宽，字居中，内边距，表格颜色。  
+	9. 对标签加轮廓。  
+	10.CSS盒子模型：margin，border，padding，content。  
+		参考此文，很详细：http://www.cnblogs.com/linjiqin/p/3556497.html
+		1.padding：内边距  
+		2.border：边框样式，可以四个边一起设置，也可以单边设置。
+			CSS3边框：  
+			border-radius：圆角边框  
+			box-shadow：边框阴影  
+			border-image：边框图片    
+		3.外边距：通常是透明的，代表块和块之间的距离。
+		
+		3.
+		
+			
+		
+		
       
 
 
