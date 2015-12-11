@@ -1,7 +1,17 @@
 # HTML-CSS-
 ##HTML基础  
 	1.<!DOCTYPE>: HTML也有很多版本，只有完全明白页面中所有使用的HTML版本，才能完全正确地显示出HTML页面。
-	2. <a href='http://www.jikexueyuan.com'>study</a> 添加一个超级链接。
+	2. <a href='http://www.jikexueyuan.com'>study</a> 添加一个超级链接。  
+	3. <br/>：换行
+	4. 三种样式表插入方法：  
+		1.外部样式表：<link rel="stylesheet" type="text/css" href="mystyle.css">  
+		2.内部样式表：  
+			<style type="text/css">  
+			body {background-color:red}
+			p {margin-left:20px}   
+			</style>
+		3.内联样式表：  
+			<p style="color:red">
 ##HTML5新特性  
 	1.用于绘画的canvas标签  
 	2.用语媒体回放的video和auto标签。
