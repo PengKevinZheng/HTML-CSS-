@@ -1,7 +1,14 @@
 # HTML-CSS-
 ##HTML基础  
 	1.<!DOCTYPE>: HTML也有很多版本，只有完全明白页面中所有使用的HTML版本，才能完全正确地显示出HTML页面。
-	2. <a href='http://www.jikexueyuan.com'>study</a> 添加一个超级链接。  
+	2. <a href='http://www.jikexueyuan.com'>study</a> 添加一个超级链接。
+	
+	   <a href="http://www.jikexueyuan.com">  
+	   <img src="html.png">  
+        </a> 以一张图片作为连接。  
+
+	   <a name="tips">hello<a/>
+	   <a href="#tips">跳转到hello</a>
 	3. <br/>：换行
 	4. 三种样式表插入方法：  
 		1.外部样式表：<link rel="stylesheet" type="text/css" href="mystyle.css">  
