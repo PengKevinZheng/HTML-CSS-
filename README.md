@@ -234,7 +234,32 @@
 		CSS文本：  
 		li {
 			display:inline;  
-		}
+		}  
+	13.CSS的2D,3D转换 (转换有很多，只列出来了几个)
+		1.translate()：元素从其当前位置移动，根据给定的 left（x 坐标） 和 top（y 坐标） 位置参数：transform:
+		translate(50px,100px);
+		2.rotate()：元素顺时针旋转给定的角度。允许负值，元素将逆时针旋转。transform: rotate(30deg);
+		scale()：元素的尺寸会增加或减少，根据给定的宽度（X 轴）和高度（Y 轴）参数：transform: scale(2,4);值 scale(2,4)  
+		把宽度转换为原始尺寸的 2 倍，把高度转换为原始高度的 4 倍。
+		3.skew()：元素翻转给定的角度，根据给定的水平线（X 轴）和垂直线（Y 轴）参数。transform: skew(30deg,20deg);值  
+		skew(30deg,20deg) 围绕 X 轴把元素翻转 30 度，围绕 Y 轴翻转 20 度。
+		matrix()：  
+	14. CSS的动画过渡  
+		用transition来定义过渡：  
+			transition-property	规定设置过渡效果的 CSS 属性的名称。
+			transition-duration	规定完成过渡效果需要多少秒或毫秒。
+			transition-timing-function	规定速度效果的速度曲线。
+			transition-delay	定义过渡效果何时开始。    
+		transition的优点在于简单易用，但是它有几个很大的局限。
+		（1）transition需要事件触发，所以没法在网页加载时自动发生。
+		（2）transition是一次性的，不能重复发生，除非一再触发。
+		（3）transition只能定义开始状态和结束状态，不能定义中间状态，也就是说只有两个状态。
+		（4）一条transition规则，只能定义一个属性的变化，不能涉及多个属性。
+		CSS Animation就是为了解决这些问题而提出的。  
+	15.CSS瀑布流效果:  
+		1.通过浮动完成  
+		2.通过多列完成
+		
 		
 	
 	
