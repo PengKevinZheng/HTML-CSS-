@@ -223,7 +223,18 @@
 		fixed：	生成绝对定位的元素，相对于浏览器窗口进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom属性进行规定。  
 		absolute：生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。元素的位置通过 "left", "top", "right" 以及 		"bottom" 属性进行规定。    
 		浮动：  
-		http://www.cnblogs.com/icescut/archive/2009/12/29/cssfloat.html
+		http://www.cnblogs.com/icescut/archive/2009/12/29/cssfloat.html  
+	12.CSS导航栏：  
+		HTML文本:  
+		<ul>  
+			<li>Hello</li>  
+			<li>Hello</li>  
+			<li>Hello</li>  
+		</ul>   	
+		CSS文本：  
+		li {
+			display:inline;  
+		}
 		
 	
 	
